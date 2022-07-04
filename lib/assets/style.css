@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ff5cd5;
+}
+main {
+    
+    width: 100%;
+}
+main img {
+    box-shadow: rgba(0, 0, 0, 0.377) 0px 5px 10px 5px;
+    width: 40%;
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+   
+}
+@media (max-width: 568px) {
+    main img {
+        
+        width: 100%;      
+       
+    }
+}
+@media (max-width: 360px) {
+    main img {        
+        height: 90%;      
+       
+    }
+}
